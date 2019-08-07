@@ -5,6 +5,6 @@ Maybe we can learn together.
 
 Feel free to test it.
 
-Ps: Oh, yeah, the game it's in Portuguese. But i coded it in english.
+Ps: Oh, yeah, the game is in Portuguese. But i coded it in english.
 
 
