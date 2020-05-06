@@ -8,3 +8,7 @@ Feel free to test it.
 Ps: Oh, yeah, the game is in Portuguese. But i coded it in english.
 
 
+
+
+
+https://www.canva.com/design/DAD7b_gAzhA/Y4lA_xQMNfyNOo4JMfAMiA/view?utm_content=DAD7b_gAzhA&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink
