@@ -20,9 +20,16 @@ header > h1 {
   font-family: Asap, sans-serif;
 }
 
+a {
+  color:  white;
+  text-align: center;
+  font-family: Asap, sans-serif;
+  position: absolute;
+}
+
 .score-board {
   margin: 20px auto;
-  border: 3px solid white;
+  border: 10px solid white;
   border-radius: 4px;
   text-align: center;
   width: 200px;
@@ -31,6 +38,8 @@ header > h1 {
   padding: 15px 20px;
   font-family: Asap, sans-serif;
   position: relative;
+  appearance: pull-down-menu;
+
 }
 
 
@@ -68,11 +77,13 @@ header > h1 {
   text-align: center;
   font-weight: bold;
   font-family: Asap, sans-serif;
+  appearance: pull-down-menu;
 }
 
 .choices {
-  margin: 10px 0;
+  margin: 20px 0;
   text-align: center;
+  appearance: pull-down-menu;
 }
 
 
@@ -83,7 +94,8 @@ header > h1 {
   margin: 0 1px;
   padding: 0.0002px;
   display: inline-block;
-  transition: all 0.3s ease;
+  transition: all 0.5s ease;
+  
 }
 
 .choice:hover {
@@ -98,5 +110,6 @@ header > h1 {
   font-weight: bold;
   font-size: 35px;
   margin-top: 20px;
+  transition: all 3.3s ease;
 
 }
