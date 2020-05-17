@@ -16,27 +16,27 @@ function getComputerChoice() {
 }
 
 function convertToWord(letter) {
-  if (letter === "r") return "Pedra";
-  if (letter === "p") return "Papel";
-  if (letter === "s") return "Tesoura";
+  if (letter === "r") return "Rock";
+  if (letter === "p") return "Paper";
+  if (letter === "s") return "Scissors";
 }
 
 function win(userChoice, computerChoice) {
   userScore++;
   userScore_span.innerHTML = userScore;
   computerScore_span.innerHTML = computerScore;
-  result_p.innerHTML = `${convertToWord(userChoice)} bate ${convertToWord(computerChoice)}. Cê ganhou! `;
+  result_p.innerHTML = `${convertToWord(userChoice)} Wins ${convertToWord(computerChoice)}. You Win! YAY `;
 }
 
 function lose(userChoice, computerChoice) {
   computerScore++;
   userScore_span.innerHTML = userScore;
   computerScore_span.innerHTML = computerScore;
-  result_p.innerHTML = `${convertToWord(userChoice)} perde para ${convertToWord(computerChoice)}. Cê perdeu! :( `;
+  result_p.innerHTML = `${convertToWord(userChoice)} Loses to ${convertToWord(computerChoice)}. You lose!`;
 }
  
 function draw(userChoice, computerChoice) {
-  result_p.innerHTML = `${convertToWord(userChoice)} Empata com ${convertToWord(computerChoice)}. Empate!   `;
+  result_p.innerHTML = `${convertToWord(userChoice)} Draw ${convertToWord(computerChoice)}. It's a Draw   `;
 }
 
 function game(userChoice) {
