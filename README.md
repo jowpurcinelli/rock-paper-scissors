@@ -1,10 +1,6 @@
 # rock-paper-scissors
-Hey, im Jow, i'm just starting to learn some progamming and decided to post my first "work" (if i can call it like that) in here for fun. 
-If you're learning about it aswell, fell free to edit the "game" as you want.
-Maybe we can learn together.
 
-Feel free to test it.
 
-Ps: Oh, yeah, the game is in Portuguese. But i coded it in english.
-
+-----
+That's a basic Rock Paper Scissors game, which I developed a long time a go, and I will be introducing new technologies.
 
